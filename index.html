@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chameen's Van for Rent</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Van Rental</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#details">Van Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Reliable Van Rental Service</h1>
+      <p>Affordable | Comfortable | 24/7 Availability</p>
+    </div>
+  </section>
+
+  <!-- Van Details -->
+  <section class="container my-5" id="details">
+    <h2 class="text-center mb-4">Van Details</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Van Image" />
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li><strong>Type:</strong> Toyota HiAce</li>
+          <li><strong>Capacity:</strong> 12 passengers</li>
+          <li><strong>Fuel Type:</strong> Diesel</li>
+          <li><strong>Transmission:</strong> Manual</li>
+          <li><strong>Air Conditioning:</strong> Yes</li>
+          <li><strong>Daily Rate:</strong> Rs. 6,000</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="container my-5" id="booking">
+    <h2 class="text-center mb-4">Book Now</h2>
+    <form>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="startDate" class="form-label">Start Date</label>
+          <input type="date" class="form-control" id="startDate" required />
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="endDate" class="form-label">End Date</label>
+          <input type="date" class="form-control" id="endDate" required />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container my-5" id="contact">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <p class="text-center">For inquiries or urgent bookings, reach us at:</p>
+    <div class="text-center">
+      <p><strong>Phone:</strong> +94 77 123 4567</p>
+      <p><strong>Email:</strong> chameenvan@gmail.com</p>
+      <p><a href="https://wa.me/94771234567" target="_blank" class="btn btn-success">Message on WhatsApp</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Chameen's Van Rental. All rights reserved.</p>
+  </footer>
+</body>
+</html>
