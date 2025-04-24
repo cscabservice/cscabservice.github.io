@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://cscabservice.github.io/sitemap.xml
